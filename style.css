@@ -1,6 +1,55 @@
-body {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+* {
+  box-sizing: border-box;
 }
-label {
+body {
+  background-color: #66ff66;
+  color: white;
+  font-family: "Muli", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  flex-direction: column;
+  margin: 0;
+}
+.container {
+  margin-top: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 40px;
+  padding-bottom: 10rem;
+  border-radius: 5px;
+}
+.container label {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.container input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
   display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: white;
+}
+#check-number {
+  margin-top: 20px;
+  width: 40%;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: wheat;
+  font-size: 20px;
+}
+.output-message {
+  margin-top: 40px;
+  font-size: 20px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
 }
