@@ -26,17 +26,19 @@ body {
 .container label {
   text-transform: capitalize;
   font-weight: bold;
+  font-size: 25px;
   margin-top: 10px;
 }
 .container input {
-  background-color: transparent;
+  background-color: white;
   border: 0;
+  border-radius: 10px;
   border-bottom: 2px #fff solid;
   display: block;
   width: 100%;
   padding: 15px 0;
   font-size: 18px;
-  color: white;
+  color: black;
 }
 #check-number {
   margin-top: 20px;
