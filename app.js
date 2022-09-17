@@ -10,7 +10,7 @@ function calculateProfiteAndLoss(initial, quantity, current) {
     const lossPercentage = (Loss / initial) * 100;
 
     showMessage(
-      `hey it is loss ${Loss} and its Percentageis ${lossPercentage.toFixed(
+      `😔 hey it is loss ${Loss} and its Percentageis ${lossPercentage.toFixed(
         2
       )}%`
     );
@@ -18,14 +18,14 @@ function calculateProfiteAndLoss(initial, quantity, current) {
     const Profit = (current - initial) * quantity;
     const profitPercentage = (Profit / initial) * 100;
     showMessage(
-      `hey it is profit ${Profit} and its Percentageis ${profitPercentage.toFixed(
+      `🤗 hey it is profit ${Profit} and its Percentageis ${profitPercentage.toFixed(
         2
       )}%`
     );
   } else if (initialPrice !== 0 || quantityStock !== 0 || currentPrice !== 0) {
     showMessage("Enter in the field");
   } else {
-    showMessage("No Pain No Gain No Pain No Gain");
+    showMessage(" No Pain No Gain No Pain No Gain");
   }
 }
 function clickHanlder() {
